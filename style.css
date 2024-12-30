@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100%;
+
+    
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position:relative
+
+}
+.front{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(185, 138, 83);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(185, 138, 83);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    z-index: -1;
+}
+#menu{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(185, 138, 83);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    z-index: -1;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 1;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+nav h1{
+    font-size: 25px;
+    color: rgb(240, 248, 255, 0.737);
+
+}
+nav ul a{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(240, 248, 255, 0.737);
+}
+.front h1{
+    font-size: 20vw;
+    color: rgb(240, 248, 255, 0.619);
+}
+#coffeec{
+    width: 16%;
+    z-index: 1;
+    filter: drop-shadow(2px 2px 10px black);
+    position: absolute;
+}
+#coffeeb1{
+    width: 16%;
+    filter: drop-shadow(2px 2px 10px black);
+    position: absolute;
+    top: 6%;
+    left: 34%;
+    transform: rotate(20deg);
+}
+#coffeeb2{
+    width: 16%;
+    top: 67%;
+    left: 53%;
+    z-index: 2;
+    filter: drop-shadow(2px 2px 10px black);
+    position: absolute;
+    transform: rotate(20deg);
+}
+#coffeeb3{
+    width: 16%;
+    top:35% ;
+    left: 17%;
+    filter: drop-shadow(2px 2px 10px black);
+    position: absolute;
+    transform: rotate(130deg);
+}
+#coffeeb4{
+    width: 16%;
+    top:29% ;
+    left: 73%;
+    filter: drop-shadow(2px 2px 10px black);
+    position: absolute;
+    transform: rotate(113deg);
+}
+#coffeeb5{
+    width: 16%;
+    top: 7%;
+    left: 60%;
+    filter: drop-shadow(2px 2px 10px black);
+    position: absolute;
+    transform: rotate(-31deg);
+}
+.card{
+    width: 26%;
+    height: 70%;
+    background-color: rgba(240,248,255,0.644);
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20%;
+
+}
+.para{
+    width: 70%;
+    height: 60%;
+    font-size: 2vw;
+    color: rgb(240, 248, 255, 0.463);
+    
+
+}
+#can1{
+    width: 120%;
+    z-index: 1;
+    filter: drop-shadow(2px 2px 10px black);
+    position: absolute;
+    top: -10%;
+}
+#can2{
+    width: 130%;
+    z-index: 1;
+    filter: drop-shadow(2px 2px 10px black);
+    position: absolute;
+    top: -10%;
+}
+.card1, .card2, .card3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#bean1{
+    width: 60%;
+    position: absolute;
+    top: 204px;
+    left: -71px;
+    rotate: 34deg;
+}
+#bean2{
+    width: 60%;
+    position: absolute;
+    top: 228px;
+    left: 210px;
+    rotate: 141deg;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(185, 138, 83);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding: 40px;
+    z-index: -2;
+   
+}
+.form{
+    width: 40%;
+    height: 80%;
+    background-color: rgb(240, 248, 255, 0.663);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 2%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+.form h1{
+    font-size: 6vw;
+    top: -55px;
+    position: absolute;
+    color: rgb(240, 248, 255, 0.571);
+    -webkit-text-stroke: 2px  rgb(185, 138, 83);
+}
+.form input{
+    width: 80%;
+    height: 10%;
+    border:3px solid rgb(185, 138, 83);
+    color: rgb(185, 138, 83);
+    border-radius: 20px;
+    padding: 20px;
+
+
+
+
+}
+.form textarea{
+    width: 80%;
+    height: 30%;
+    border:3px solid rgb(185, 138, 83);
+    color: rgb(185, 138, 83);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.form button{
+    padding: 10px 30px;
+    background: transparent;
+    font-size: 20px;
+    border:3px solid rgb(185, 138, 83);
+    color: rgb(185, 138, 83);
+    border-radius: 20px;
+}
+.form button:hover{
+    background-color: rgb(185, 138, 83);
+    color: rgb(240, 248, 255, 0.726);
+}
